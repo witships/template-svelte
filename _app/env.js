@@ -1,0 +1,1 @@
+export const env={"PUBLIC_ID":"hoge","PUBLIC_PW":"pass"}

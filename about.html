@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="manifest" href="/manifest.webmanifest" />
+		<title>テンプレート</title>
+		<meta name="description" content="SvelteKitを利用したテンプレートです." />
+		
+		<link href="./_app/immutable/assets/0.BFkcIF2G.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.B1T1aCof.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.C6TeYW_8.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.DU6JePkD.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.Dxm1K49K.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.BJrMs8I3.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.qtMApSxj.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/3.C6xKmyM4.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="wrap svelte-b81ihy"> <div class="form svelte-b81ihy"><div class="grid svelte-b81ihy"><label for="id" class="svelte-b81ihy" data-svelte-h="svelte-1hq7eoy">ログインID</label> <input type="text" name="id" id="id" class="svelte-b81ihy" value=""> <label for="pw" class="svelte-b81ihy" data-svelte-h="svelte-19j8ox7">パスワード</label> <input type="password" name="pw" id="pw" class="svelte-b81ihy" value=""></div>  <button class="login svelte-b81ihy" data-svelte-h="svelte-zxrw3j">ログイン</button></div>  </div> 
+			
+			<script>
+				{
+					__sveltekit_10u6yvn = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.B1T1aCof.js"),
+						import("./_app/immutable/entry/app.Dxm1K49K.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
