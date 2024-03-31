@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--main-color: #1e8e72;
+	--scub-color: #8e881e;
+}
+
+a {
+	color: unset;
+	text-decoration: auto;
+	&:hover {
+		filter: brightness(0.7);
+	}
+}
+
+.pa-1 {
+	padding: 0.5rem;
+}
